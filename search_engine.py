@@ -87,7 +87,6 @@ query_vector = vectorizer.transform(query)
 # ---------------------------------------------------------
 doc_vectors = document_matrix.toarray().tolist()
 query_vector = query_vector.toarray().tolist()[0]
-1
 print("Document Vectors:")
 for i, vec in enumerate(doc_vectors):
     print(f"d{i+1}:", vec)
